@@ -207,7 +207,7 @@ export default function LoveMessage() {
         <span className='font-semibold'>Para Nars 💟</span>
       </div>
 
-      <Canvas camera={{ position: [0, 0, 25], fov: 45 }}>
+      <Canvas camera={{ position: [0, 0, 30], fov: 45 }}>
         <ambientLight intensity={0.7} />
         <spotLight
           position={[10, 10, 10]}
@@ -244,7 +244,7 @@ export default function LoveMessage() {
         <OrbitControls enableZoom={false} />
 
         {/* Background glow effect */}
-        <mesh position={[0, 0, -10]}>
+        <mesh position={[0, 0, -15]}>
           <sphereGeometry args={[7, 32, 32]} />
           <meshBasicMaterial color='#0000ff' transparent opacity={0.05} />
         </mesh>
