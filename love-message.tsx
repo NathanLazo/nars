@@ -207,7 +207,7 @@ export default function LoveMessage() {
         <span className='font-semibold'>Para Nars 💟</span>
       </div>
 
-      <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
+      <Canvas camera={{ position: [0, 0, 25], fov: 45 }}>
         <ambientLight intensity={0.7} />
         <spotLight
           position={[10, 10, 10]}
