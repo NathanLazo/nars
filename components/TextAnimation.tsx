@@ -24,7 +24,7 @@ export default function AnimatedText() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.8 }}
-          className='text-5xl md:text-7xl font-bold text-blue-700 tracking-wider'
+          className='text-5xl md:text-7xl font-bold text-blue-800 tracking-wider'
         >
           {phrases[currentIndex]}
         </motion.h1>
